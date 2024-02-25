@@ -232,6 +232,7 @@ endif()
 set(HYBRIDPQC_HEADERS_COMMON
                    ${PROJECT_SOURCE_DIR}/tweetnacl/tweetnacl.h
                    ${PROJECT_SOURCE_DIR}/random/randombytes.h
+                   ${PROJECT_SOURCE_DIR}/common/shake_prng.h
     )
 
 set(HYBRIDPQC_HEADERS_SPHINCS ${PROJECT_SOURCE_DIR}/sphincs/api.h)
